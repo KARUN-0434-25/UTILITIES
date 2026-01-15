@@ -20,6 +20,10 @@ html {
     cursor: pointer;
     width: 100vh;
 }
+#log img{
+    height: 50px;
+    width: 50px;
+}
 .animated-text {
     transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
