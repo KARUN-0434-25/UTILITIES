@@ -55,7 +55,7 @@ img {
 .palette-item:hover {
     border-radius: 2vh;
     transform: scale(1.01); 
-    filter: brightness(1.5);
+    filter: brightness(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
 }
 .caption {
