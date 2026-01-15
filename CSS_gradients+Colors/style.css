@@ -81,6 +81,16 @@ h4 {
 }
 #footer{
     background-image: url(https://i.pinimg.com/736x/1b/7d/72/1b7d72feca398bfbad2916f1ecf25a87.jpg);
+    border-radius: 3vh;
+}
+#footer a,p{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#inside{
+    margin-left: 0vh;
+    gap: 2px;
 }
 
 
