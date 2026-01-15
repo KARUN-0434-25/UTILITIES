@@ -3,16 +3,13 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
 }
-
 html {
     height: 100%;
     margin: 0;
 }
-
 body {
     /* Fixed background properties for better coverage */
-    background-image: linear-gradient(to bottom, #d2f96f84, #1f1f1fb1, #0e100a83, #a2a2a276, #ffffff8d), 
-                      url(https://i.pinimg.com/1200x/27/8e/a8/278ea85ceebe2dd36f8f0f37ac25a2bf.jpg);
+    background-image: linear-gradient(to bottom, #d2f96f84, #1f1f1fb1, #0e100a83, #a2a2a276, #ffffff8d),url(https://i.pinimg.com/1200x/27/8e/a8/278ea85ceebe2dd36f8f0f37ac25a2bf.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; /* Keeps background still while scrolling */
@@ -22,14 +19,12 @@ body {
     padding: 20px;
     font-family: sans-serif;
 }
-
 #main-page {
     width: 100%;
     column-gap: 20px;
     /* Default for large screens */
     column-count: 5; 
 }
-
 /* --- RESPONSIVE BREAKPOINTS --- */
 
 /* For Tablets (approx 1024px and down) */
@@ -38,7 +33,6 @@ body {
         column-count: 3;
     }
 }
-
 /* For Mobile Phones (approx 600px and down) */
 @media (max-width: 600px) {
     #main-page {
@@ -47,21 +41,18 @@ body {
 }
 
 /* ------------------------------ */
-
 .palette-item {
     display: inline-block; 
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
 }
-
 img {     
     border-radius: 2vh;
     width: 100%; 
     display: block;
     cursor: pointer;
 }
-
 .caption {
     color: white;
     margin-top: 8px;
@@ -69,11 +60,9 @@ img {
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
-
 li {
     list-style: none;
 }
-
 h4 {
     cursor: text;
 }
