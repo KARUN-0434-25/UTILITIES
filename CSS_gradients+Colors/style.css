@@ -6,8 +6,7 @@ html {
 
 body {
     /* Combined your gradient and background image for better performance */
-    background: linear-gradient(to bottom, #d2f96f84, #1f1f1fb1, #0e100a83, #a2a2a276, #ffffff8d),
-                url(https://i.pinimg.com/1200x/27/8e/a8/278ea85ceebe2dd36f8f0f37ac25a2bf.jpg);
+    background: linear-gradient(to bottom, #d2f96f84, #1f1f1fb1, #0e100a83, #a2a2a276, #ffffff8d),url(https://i.pinimg.com/1200x/27/8e/a8/278ea85ceebe2dd36f8f0f37ac25a2bf.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -51,26 +50,6 @@ h1 {
     column-gap: 20px;
     column-count: 5; /* Default for large screens */
 }
-
-/* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
-    #main-page { column-count: 4; }
-}
-
-@media (max-width: 992px) {
-    #main-page { column-count: 3; }
-}
-
-@media (max-width: 768px) {
-    #main-page { column-count: 2; }
-    .animated-text { margin-left: 0; }
-}
-
-@media (max-width: 480px) {
-    #main-page { column-count: 1; }
-}
-
-/* Gallery Items */
 .palette-item {
     display: inline-block; 
     width: 100%;
@@ -118,3 +97,22 @@ img {
 }
 
 li { list-style: none; }
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    #main-page { column-count: 4; }
+}
+
+@media (max-width: 992px) {
+    #main-page { column-count: 3; }
+}
+
+@media (max-width: 768px) {
+    #main-page { column-count: 2; }
+    .animated-text { margin-left: 0; }
+}
+
+@media (max-width: 480px) {
+    #main-page { column-count: 1; }
+}
+
+/* Gallery Items */
