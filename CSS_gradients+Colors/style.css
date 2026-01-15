@@ -13,8 +13,12 @@ html {
     100% { background-position: 0% 50%; }
 }
 .animated-text{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-left: 45vh;
+    font-family:unset;
     font-size: 10vh;
+    cursor: pointer;
+    width: 100vh;
 }
 .animated-text {
     transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
@@ -27,7 +31,7 @@ html {
 }
 .animated-text {
     /* background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #667eea 100%); */
-    background: linear-gradient();
+    background: linear-gradient(#063f47);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
