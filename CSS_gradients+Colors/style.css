@@ -23,19 +23,6 @@ body {
     column-gap: 20px;
     column-count: 5; 
 }
-/* --- RESPONSIVE BREAKPOINTS --- */
-/* For Tablets (approx 1024px and down) */
-@media (max-width: 1024px) {
-    #main-page {
-        column-count: 3;
-    }
-}
-/* For Mobile Phones (approx 600px and down) */
-@media (max-width: 600px) {
-    #main-page {
-        column-count: 1; 
-    }
-}
 .palette-item {
     display: inline-block; 
     width: 100%;
@@ -70,4 +57,20 @@ li {
 }
 h4 {
     cursor: text;
+}
+
+
+
+/* --- RESPONSIVE BREAKPOINTS --- */
+/* For Tablets (approx 1024px and down) */
+@media (max-width: 1024px) {
+    #main-page {
+        column-count: 3;
+    }
+}
+/* For Mobile Phones (approx 600px and down) */
+@media (max-width: 600px) {
+    #main-page {
+        column-count: 1; 
+    }
 }
