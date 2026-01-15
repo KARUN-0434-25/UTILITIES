@@ -8,11 +8,10 @@ html {
     margin: 0;
 }
 body {
-    /* Fixed background properties for better coverage */
     background-image: linear-gradient(to bottom, #d2f96f84, #1f1f1fb1, #0e100a83, #a2a2a276, #ffffff8d),url(https://i.pinimg.com/1200x/27/8e/a8/278ea85ceebe2dd36f8f0f37ac25a2bf.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed; /* Keeps background still while scrolling */
+    background-attachment: fixed;
     background-size: cover;
     
     margin: 0;
@@ -22,11 +21,9 @@ body {
 #main-page {
     width: 100%;
     column-gap: 20px;
-    /* Default for large screens */
     column-count: 5; 
 }
 /* --- RESPONSIVE BREAKPOINTS --- */
-
 /* For Tablets (approx 1024px and down) */
 @media (max-width: 1024px) {
     #main-page {
@@ -36,11 +33,9 @@ body {
 /* For Mobile Phones (approx 600px and down) */
 @media (max-width: 600px) {
     #main-page {
-        column-count: 1; /* Stack items vertically */
+        column-count: 1; 
     }
 }
-
-/* ------------------------------ */
 .palette-item {
     display: inline-block; 
     width: 100%;
@@ -53,16 +48,15 @@ img {
     display: block;
     cursor: pointer;
 }
+/* hover-effect */
 .palette-item {
-    /* ... your existing code ... */
     transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
-
 .palette-item:hover {
     border-radius: 2vh;
-    transform: scale(1.01); /* Subtle zoom in */
-    filter: brightness(1.5); /* Slightly brightens the image */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds depth */
+    transform: scale(1.01); 
+    filter: brightness(1.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
 }
 .caption {
     color: white;
