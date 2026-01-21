@@ -1,0 +1,16 @@
+body{
+  /* background-image: linear-gradient(to bottom,#05161A,#072E33,#0C7075); */
+  background-image: linear-gradient(to bottom,#1f1f1f98,#0E100A);
+}
+#main{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  column-count: 5;
+}
+img{
+  border-radius: 2vh;
+  margin-bottom: 10px;
+  width: 220px;
+}
