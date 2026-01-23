@@ -1,16 +1,45 @@
-body{
-  /* background-image: linear-gradient(to bottom,#05161A,#072E33,#0C7075); */
-  background-image: linear-gradient(to bottom,#1f1f1f98,#0E100A);
+body {
+  /* Using min-height ensures the gradient covers the whole screen even if content is short */
+  min-height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #1f1f1f98, #0e100a);
 }
-#main{
-  height: 100%;
+
+#main {
   width: 100%;
+  /* Use a gap to prevent columns from touching */
+  column-gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
 }
-#main{
-  column-count: 3;
-}
-img{
+
+/* Base style for images: they should fill their container width */
+img {
   border-radius: 2vh;
   margin-bottom: 10px;
-  width: 370px;
+  width: 100%; 
+  display: block;
+}
+
+/* --- Responsive Layout Rules --- */
+
+/* Desktop & Large Screens (3 columns) */
+@media (min-width: 1024px) {
+  #main {
+    column-count: 3;
+  }
+}
+
+/* Tablets (2 columns) */
+@media (max-width: 1023px) and (min-width: 600px) {
+  #main {
+    column-count: 2;
+  }
+}
+
+/* Mobile Phones (1 column) */
+@media (max-width: 599px) {
+  #main {
+    column-count: 1;
+  }
 }
